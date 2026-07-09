@@ -1,9 +1,3 @@
-# Get player position
-# Convert from float to int
-execute store result storage nitpicks:compass/pos x int 1 run data get entity @s Pos[0]
-execute store result storage nitpicks:compass/pos y int 1 run data get entity @s Pos[1]
-execute store result storage nitpicks:compass/pos z int 1 run data get entity @s Pos[2]
-
 # SOUTH
 $execute as @a if entity @s[y_rotation=-22.5..0] run return run title @s actionbar {"text":"[$(x) $(y) $(z)]  |  [S]","color":"white"}
 $execute as @a if entity @s[y_rotation=0..22.5] run return run title @s actionbar {"text":"[$(x) $(y) $(z)]  |  [S]","color":"white"}
