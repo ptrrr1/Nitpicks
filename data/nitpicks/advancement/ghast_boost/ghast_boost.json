@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:orange_harness"
+    },
+    "title": "ZOOOMING!!!",
+    "description": "Feed a wind charge to a Happy Ghast",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/who_needs_rockets",
+  "criteria": {
+    "feed_happy_ghast": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:wind_charge"
+        },
+        "entity": {
+          "minecraft:entity_type": "minecraft:happy_ghast"
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": false
+}

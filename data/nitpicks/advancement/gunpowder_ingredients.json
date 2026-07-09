@@ -1,0 +1,40 @@
+{
+  "criteria": {
+    "get_sulfur_spike": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sulfur_spike"
+          }
+        ]
+      }
+    },
+    "get_charcoal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:charcoal"
+          }
+        ]
+      }
+    },
+    "get_bone_meal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bone_meal"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "nitpicks:gunpowder"
+    ]
+  },
+  "sends_telemetry_event": false
+}

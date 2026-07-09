@@ -1,0 +1,1 @@
+execute as @a[predicate=nitpicks:ghast_boost/check_has_fed] at @s run function nitpicks:ghast_boost/increase_speed

@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "feed_happy_ghast": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:wind_charge"
+        },
+        "entity": {
+          "minecraft:entity_type": "minecraft:happy_ghast"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nitpicks:ghast_boost/setup"
+  },
+  "sends_telemetry_event": false
+}

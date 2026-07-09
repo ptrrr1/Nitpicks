@@ -1,0 +1,1 @@
+execute as @e[type=happy_ghast,scores={ghast_boost=0}] run attribute @s minecraft:flying_speed modifier remove minecraft:wind_charge_bonus
