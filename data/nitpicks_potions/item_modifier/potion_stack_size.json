@@ -1,0 +1,13 @@
+{
+  "function": "minecraft:filtered",
+  "item_filter": {
+    "items": "minecraft:potion"
+  },
+  "on_pass": {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:max_stack_size": 16
+    }
+  },
+  "conditions": []
+}

@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_turtle_scute": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:raw_copper_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:raw_copper_block_blasting",
+      "minecraft:raw_copper_block_smelting"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "potion_in_inv": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:potion",
+            "components": {
+              "minecraft:max_stack_size": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "nitpicks_potions:increase_stack/update_potion_stack_size"
+  },
+  "sends_telemetry_event": false
+}

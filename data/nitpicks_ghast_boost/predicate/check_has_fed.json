@@ -4,7 +4,7 @@
   "predicate": {
     "minecraft:type_specific/player": {
       "advancements": {
-        "nitpicks:ghast_boost/ghast_boost_silent": true
+        "nitpicks_ghast_boost:ghast_boost_silent": true
       }
     }
   }

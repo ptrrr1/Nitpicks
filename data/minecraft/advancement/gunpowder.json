@@ -33,7 +33,7 @@
   },
   "rewards": {
     "recipes": [
-      "nitpicks:gunpowder"
+      "minecraft:gunpowder"
     ]
   },
   "sends_telemetry_event": false

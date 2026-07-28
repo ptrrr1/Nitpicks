@@ -3,7 +3,7 @@
 		"description": {
 			"translate": "Small Quality of Life changes to make the game more fun and/or consistent with itself!"
 		},
-		"min_format": 88,
-		"max_format": 107
+		"min_format": [94, 1],
+		"max_format": [107,1]
 	}
 }

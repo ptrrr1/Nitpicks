@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_turtle_scute": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:raw_gold_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:raw_gold_block_blasting",
+      "minecraft:raw_gold_block_smelting"
+    ]
+  }
+}

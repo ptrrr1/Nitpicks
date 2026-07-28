@@ -36,6 +36,7 @@
         "minecraft:smite",
         "minecraft:sweeping_edge",
         "minecraft:thorns",
-        "nitpicks:photosynthesis"
+        "nitpicks_enchantments:photosynthesis",
+        "nitpicks_enchantments:heavy"
     ]
 }

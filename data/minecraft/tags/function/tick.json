@@ -1,6 +1,6 @@
 {
   "values": [
     "nitpicks:tick/main",
-    "nitpicks:ghast_boost/tick"
+    "nitpicks_ghast_boost:tick"
   ]
 }

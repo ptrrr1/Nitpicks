@@ -1,5 +1,5 @@
 # Consume wind charge
-item modify entity @s weapon.mainhand nitpicks:decrease_count
+item modify entity @s weapon.mainhand nitpicks_ghast_boost:decrease_count
 playsound minecraft:entity.breeze.idle_air
 
 # Apply effect to ghast
@@ -12,7 +12,7 @@ attribute @e[type=minecraft:happy_ghast,limit=1,sort=nearest] minecraft:flying_s
 scoreboard players set @e[type=minecraft:happy_ghast,limit=1,sort=nearest] ghast_boost 1800
 
 # Remove effect
-execute as @e[type=minecraft:happy_ghast,limit=1,sort=nearest] run schedule function nitpicks:ghast_boost/decrease_speed 90s append
+execute as @e[type=minecraft:happy_ghast,limit=1,sort=nearest] run schedule function nitpicks_ghast_boost:decrease_speed 90s append
 
 # Remove advancement
-advancement revoke @a only nitpicks:ghast_boost/ghast_boost_silent
+advancement revoke @a only nitpicks_ghast_boost:ghast_boost_silent
