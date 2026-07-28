@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "torchflower_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:torchflower"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "torchflower_placed"
+    ]
+  ],
+  "rewards": {
+    "function": "nitpicks_torchflower:adult/placed"
+  },
+  "sends_telemetry_event": false
+}

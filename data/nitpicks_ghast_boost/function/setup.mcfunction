@@ -1,0 +1,1 @@
+execute as @s at @s run function nitpicks_ghast_boost:increase_speed

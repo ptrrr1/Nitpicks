@@ -1,0 +1,37 @@
+{
+  "description": "Heavy",
+  "supported_items": "#minecraft:chest_armor",
+  "weight": 3,
+  "max_level": 1,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 70,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 30,
+  "slots": [
+    "chest"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:effects": {
+              "minecraft:levitation": {}
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "nitpicks_enchantments:heavy/remove_levitation"
+        }
+      }
+    ]
+  }
+}

@@ -13,7 +13,7 @@
     }
   },
   "rewards": {
-    "function": "nitpicks:ghast_boost/setup"
+    "function": "nitpicks_ghast_boost:setup"
   },
   "sends_telemetry_event": false
 }

@@ -1,6 +1,6 @@
 {
   "exclusive_set": "minecraft:mending",
-  "anvil_cost": 60,
+  "anvil_cost": 20,
   "description": {
     "translate": "enchantment.minecraft.unbreaking"
   },
@@ -60,13 +60,13 @@
     ]
   },
   "max_cost": {
-    "base": 55,
-    "per_level_above_first": 8
+    "base": 70,
+    "per_level_above_first": 0
   },
   "max_level": 1,
   "min_cost": {
     "base": 5,
-    "per_level_above_first": 8
+    "per_level_above_first": 0
   },
   "slots": [
     "any"
