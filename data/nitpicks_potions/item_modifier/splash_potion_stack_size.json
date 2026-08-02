@@ -1,7 +1,10 @@
 {
   "function": "minecraft:filtered",
   "item_filter": {
-    "items": "minecraft:splash_potion"
+    "items": "minecraft:splash_potion",
+    "components": {
+      "minecraft:max_stack_size": 1
+    }
   },
   "on_pass": {
     "function": "minecraft:set_components",
