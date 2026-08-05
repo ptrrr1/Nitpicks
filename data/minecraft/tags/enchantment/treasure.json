@@ -1,5 +1,6 @@
 {
     "values": [
-        "minecraft:unbreaking"
+        "minecraft:unbreaking",
+        "nitpicks_enchantments:blinking_curse"
     ]
 }

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:bowl",
+    "minecraft:beetroot",
+    "minecraft:beetroot",
+    "minecraft:beetroot",
+    "minecraft:beetroot",
+    "minecraft:beetroot",
+    "minecraft:beetroot"
+  ],
+  "result": {
+    "id": "minecraft:beetroot_soup",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:water",
+        "custom_effects": [
+          {
+            "id": "minecraft:strength",
+            "duration": 1200
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "suspicious_stew",
+  "ingredients": [
+    "minecraft:bowl",
+    "#minecraft:mushrooms",
+    "#minecraft:mushrooms",
+    "minecraft:allium"
+  ],
+  "result": {
+    "components": {
+      "minecraft:suspicious_stew_effects": [
+        {
+          "id": "minecraft:fire_resistance",
+          "duration": 600
+        }
+      ]
+    },
+    "id": "minecraft:suspicious_stew"
+  }
+}

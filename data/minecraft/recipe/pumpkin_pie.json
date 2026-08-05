@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:pumpkin",
+    "minecraft:sugar",
+    "#minecraft:eggs"
+  ],
+  "result": {
+    "id": "minecraft:pumpkin_pie",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:water",
+        "custom_effects": [
+          {
+            "id": "minecraft:resistance",
+            "duration": 600,
+            "ambient": true,
+            "show_particles": false
+          }
+        ]
+      }
+    }
+  }
+}

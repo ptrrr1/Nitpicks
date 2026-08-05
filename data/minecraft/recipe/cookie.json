@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:wheat",
+    "X": "minecraft:cocoa_beans"
+  },
+  "pattern": [
+    "#X#"
+  ],
+  "result": {
+    "components": {
+      "minecraft:consumable": {
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:haste",
+                "duration": 3600,
+                "ambient": true,
+                "show_particles": false
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:lore": [
+        {
+          "text": "Haste (01:00)",
+          "type": "text",
+          "color": "blue",
+          "italic": false
+        }
+      ]
+    },
+    "count": 8,
+    "id": "minecraft:cookie"
+  }
+}
